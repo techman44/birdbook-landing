@@ -30,18 +30,9 @@ export function LandingPage() {
               <span className="font-bold text-2xl text-gray-900">BirdBook</span>
             </div>
             <div className="flex items-center gap-3">
-              <button
-                onClick={goToSignUp}
-                className="bg-emerald-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-emerald-700 transition-all shadow-lg shadow-emerald-200"
-              >
-                Sign Up Free
-              </button>
-              <Link
-                href="/login"
-                className="border-2 border-emerald-600 text-emerald-600 px-6 py-2 rounded-full font-semibold hover:bg-emerald-50 transition-all"
-              >
-                Log In
-              </Link>
+              <span className="bg-emerald-100 text-emerald-700 px-6 py-2 rounded-full font-semibold">
+                Coming Soon
+              </span>
             </div>
           </div>
         </div>
@@ -54,7 +45,7 @@ export function LandingPage() {
             {/* Left: Text Content */}
             <div className="text-center lg:text-left">
               <div className="inline-flex items-center bg-emerald-100 text-emerald-700 px-4 py-2 rounded-full text-sm font-medium mb-6">
-                <span className="mr-2">🎉</span> Registration Now Open!
+                <span className="mr-2">🎉</span> Coming Soon
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
                 Share Your Bird{' '}
@@ -68,12 +59,9 @@ export function LandingPage() {
                 list, and connect with fellow birders worldwide.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <button
-                  onClick={goToSignUp}
-                  className="bg-emerald-600 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-emerald-700 transition-all shadow-xl shadow-emerald-200 flex items-center justify-center"
-                >
-                  <span className="mr-2">🚀</span> Get Started Free
-                </button>
+                <span className="bg-emerald-600 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-xl shadow-emerald-200 flex items-center justify-center">
+                  <span className="mr-2">🚀</span> Coming Soon
+                </span>
                 <a
                   href="#features"
                   className="border-2 border-emerald-200 text-emerald-700 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-emerald-50 transition-all flex items-center justify-center"
@@ -352,16 +340,13 @@ export function LandingPage() {
           </p>
 
           <div className="space-y-4 max-w-md mx-auto">
-            <Link
-              href="/login"
-              className="block w-full bg-emerald-600 text-white py-4 rounded-xl font-semibold text-lg hover:bg-emerald-700 transition-all shadow-lg shadow-emerald-200"
-            >
+            <div className="block w-full bg-emerald-600 text-white py-4 rounded-xl font-semibold text-lg shadow-lg shadow-emerald-200">
               <span className="flex items-center justify-center">
-                <span className="mr-2">🚀</span> Create Free Account
+                <span className="mr-2">🚀</span> Coming Soon
               </span>
-            </Link>
+            </div>
             <p className="text-gray-500 text-sm">
-              No credit card required. Free forever for basic features.
+              We&apos;re putting the finishing touches on BirdBook. Check back soon!
             </p>
           </div>
         </div>
