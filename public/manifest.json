@@ -1,0 +1,60 @@
+{
+  "name": "BirdBook - Bird Identification & Social Network",
+  "short_name": "BirdBook",
+  "description": "AI-powered bird identification and birding social network",
+  "start_url": "/feed",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#10b981",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["photo", "social", "education"],
+  "shortcuts": [
+    {
+      "name": "Identify Bird",
+      "short_name": "Identify",
+      "description": "Identify a bird from a photo",
+      "url": "/identify",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Feed",
+      "short_name": "Feed",
+      "description": "View birding feed",
+      "url": "/feed",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "My Birds",
+      "short_name": "My Birds",
+      "description": "View your bird collection",
+      "url": "/mybirds",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Encyclopedia",
+      "short_name": "Encyclopedia",
+      "description": "Browse bird encyclopedia",
+      "url": "/encyclopedia",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
